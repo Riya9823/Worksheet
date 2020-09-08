@@ -1,0 +1,53 @@
+1. B (Because struct is a composite datatype)
+2. C (Variable names must begin with a letter from A-Z or the underscore _ character.)
+3. A
+4. B (For order of precedence, we use PEMDAS (similar to BODMAS).
+5. C (PEMDAS and Division and multiplications are the same precedence (because they are the same operation)).
+6. C (accurate answer = 0.33333333333333215)
+7. A 
+8. A
+9. A,B,D
+10. A,c,D
+11. A list is a sequence of elements in a specific order.List can store any type of element. The time taken for several operations such astesting if the list contains an
+    element is O(n), i.e. proportional to the length of the list.List are mutable .i.e it can be converted into another datatype and can store any data element in it.
+    Example: # Creating a List of numbers  
+               List = [10, 20, 14]  
+               print("\nList of numbers: ")  
+               print(List)
+               
+    Tuple is a collection of Python objects much like a list. The sequence of values stored in a tuple can be of any type, and they are indexed by integers. Values of a tuple
+    are syntactically separated by ‘commas’. A tuple is basically an immutable list, meaning you can't add, remove, or replace any elements.It is defined under parenthesis().
+    Example: # Creating a Tuple with the use of list  
+             list1 = [67, 20, 48, 51, 69]  
+             print("\nTuple using List: ")  
+             print(tuple(list1))
+    
+    A set has no order, but has the advantage over a list that testing if the set contains an element is much faster, almost regardless of the size of the set. It also has
+    some handy operations such as union and intersection.It is mutable and has no duplicate elements.It is defined under curly braces{}.
+    Example:  # Creating a Set with the use of a List  
+              set1 = set(["Geeks", "For", "Geeks"])  
+              print("\nSet with the use of List: ")  
+              print(set)
+     
+    A dictionary is a collection data type that is unordered and indexed and can be changed and uses curly braces. It uses keys and values for the structure of the data.
+    The key is the input of the data and the value is the actual data you are using.They keys of a dict are much like a set: they have no order and you can test for their
+    existence quickly.  
+    Example: # Creatind a dict
+             my_dictionary = {
+             "age": 24,
+             "location": "Tokyo",
+             "favorite_food": "ramen"
+             }
+             
+12. No,strings are immutable in python.
+    Code: text = 'I+Love+Python'
+          text = text.replace ("+", " ")
+          print(text)
+13. The ord() function returns the number representing the unicode code of a specified character.   
+    Example:  x = ord("h")
+              print(x)
+              As we know, it represents unicode of character so from this example we get the unicode of 'h' which is 104.
+    We use the type() function to find the datatype of any variable in python.
+    Example: a = 12
+             print(type(a)).
+                          
