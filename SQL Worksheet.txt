@@ -1,1 +1,37 @@
+1. A,D
+2. A,B,C
+3. B
+4. B
+5. A
+6. C
+7. D
+8. B
+9. B
+10. A
+11. A data warehouse, also known as an enterprise data warehouse. It is a technology that aggregates structured data from one or more sources so that it can be compared 
+    and analyzed for greater business intelligence. It involves data cleaning, data integration, and data consolidations.
+    
+12. OLAP stands for On-Line Analytical Processing. It is used for analysis of database information from multiple database systems at one time such as sales analysis and 
+    forecasting, market research, budgeting.In OLAP database there is aggregated, historical information, stored in multi-dimensional schemas.   
+    Example:  Data Warehouse is the example of OLAP system.
 
+    OLTP stands for On-Line Transactional processing. It is used for maintaining the online transaction and record integrity in multiple access environments. OLTP is a system 
+    that manages very large number of short online transactions.In the OLTP database, there is an accurate and current record, and schema used to save transactional database 
+    is the entity model.
+    Example:    Online banking, Sending a text message etc.
+    
+13. Characteristics of data-warehouse:
+     1. Subject-oriented: It means the data warehousing process intends to deal with a particular subject that is more defined.
+     2. Time-variant: It discovers different time limits that modulate within the large amounts of data and holds in online transaction processing.
+     3. Non-volatile: It encompasses the high quantity of data that enters into change within the selected quantity on logical business.
+     4. Integrated: It is similar to the subject orientation that made in a consistent format.It should resolve the problems and make the disparate problem.
+     
+14. A star schema is the simplest form of a dimensional model, in which data is organized into facts and dimensions. It includes one or more fact tables indexing any number 
+     of dimensional tables. It is also efficient for handling basic queries. Star schemas are optimized for querying large data sets and are used in data warehouses and data 
+     marts to support OLAP cubes, business intelligence and analytic applications, and ad hoc queries.  
+     
+15. SETL is a high-level programming language that's based on the mathematical theory of sets.IT is an interpreted language with a syntax that resembles C and in many cases 
+    similar to Perl. In SETL every statement is terminated by a semicolon. Variable names are case-insensitive and are automatically determined by their last assignment. It
+    is used for mathematical and telecommunications applications.    
+
+    
